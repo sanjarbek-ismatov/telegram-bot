@@ -17,7 +17,6 @@
     "yarn": "^1.22.19"
   },
   "scripts": {
-    "start": "nodemon index",
-
+    "start": "nodemon index.js"
   }
 }
