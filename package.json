@@ -7,11 +7,13 @@
   "author": "Sanjarbek",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.27.2",
     "dotenv": "^16.0.2",
     "global": "^4.4.0",
     "nodemon": "^2.0.20",
     "telebot": "^1.4.1",
     "telegraf": "3.38.0",
+    "telegraf-command-parts": "^1.0.3",
     "yarn": "^1.22.19"
   },
   "scripts": {
