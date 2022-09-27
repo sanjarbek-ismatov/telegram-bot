@@ -9,7 +9,7 @@ async function fetchWeather(city, ctx) {
     `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&APPID=46a5f1f15caefb45e9b1f9c2d3687e57`
   )
     .then((data) => {
-      ctx.reply(data.data.main.temp);
+      ctx.reply("Bugun ob-havo: " + data.data.main.temp + " C");
     })
     .catch((err) => ctx.reply("Afsus Shahar topilmadi: " + err.code));
 }
