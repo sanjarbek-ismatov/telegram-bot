@@ -16,6 +16,9 @@
     "telegraf-command-parts": "^1.0.3",
     "yarn": "^1.22.19"
   },
+  "engines": {
+    "node": "16.16.0"
+  },
   "scripts": {
     "start": "node index",
     "dev": "nodemon index"
