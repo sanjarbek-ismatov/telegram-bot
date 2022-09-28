@@ -17,4 +17,5 @@ bot.start((ctx) => ctx.reply("Salom"));
 bot.command("/get", (ctx) => {
   fetchWeather(ctx.state.command.args, ctx);
 });
+
 bot.launch();
