@@ -17,7 +17,7 @@ async function fetchWeather(city, ctx) {
 }
 bot.start((ctx) =>
   ctx.reply(
-    "Salom, Ob havoni bilish uchun /get Tashkent kabi /get City deb kiriting. Xato bo'lsa @Sanjarbek_Ismatov"
+    "Salom, Ob havoni bilish uchun  **/get Tashkent kabi** __/get City__ deb kiriting. Xato bo'lsa @Sanjarbek_Ismatov"
   )
 );
 bot.command("/get", (ctx) => {
