@@ -1,2 +1,2 @@
-web: yarn start
-worker: yarn start
+web: node index.js -p $PORT
+worker: node index.js -p $PORT
