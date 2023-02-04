@@ -16,6 +16,7 @@
     "telegraf-command-parts": "^1.0.3"
   },
   "scripts": {
+<<<<<<< HEAD
     "start": "node dist/bundle.js",
     "build": "webpack"
   },
@@ -26,5 +27,8 @@
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1",
     "webpack-node-externals": "^3.0.0"
+=======
+    "start": "nodemon index.js"
+>>>>>>> 04ee934ec0faeb49d3d2c72b9db0623b3fa1ccd8
   }
 }

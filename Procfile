@@ -1,2 +1,2 @@
-web: node index.js -p $PORT
-worker: node index.js -p $PORT
+web: nodemon index.js
+worker: nodemon index.js
