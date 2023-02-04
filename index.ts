@@ -18,9 +18,17 @@ async function fetchWeather(
       `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&APPID=46a5f1f15caefb45e9b1f9c2d3687e57`
     )
     .then((data) => {
+      const temp = data.data.main.temp;
       ctx.reply(
         "🌦 Bugun " + city + "da ob-havo: " + data.data.main.temp + " C"
       );
+      if (temp <= 10) {
+        ctx.reply("Issiq kiyinib oling!🥶");
+      } else if (temp > 10 && temp < 20) {
+        ctx.reply("Ob havo iliq!😉");
+      } else {
+        ctx.reply("Havo issiq! 😉");
+      }
     })
     .catch((err) => ctx.reply("Afsus Shahar topilmadi: " + err.code));
 }
